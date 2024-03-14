@@ -23,8 +23,9 @@ export default function HomePage() {
                Food is Just a click away! 
             </span>
             <SearchBar 
-                  placeHolder="Search by City or Town"
-                  onSubmit={handleSearchSubmit} searchQuery={""}            />
+                placeHolder="Search by City or Town"
+                onSubmit={handleSearchSubmit} searchQuery={""} 
+            />
         </div>
         <div className="grid md:grid-cols-2 gap-5">
             <img src={landingImage}/>
