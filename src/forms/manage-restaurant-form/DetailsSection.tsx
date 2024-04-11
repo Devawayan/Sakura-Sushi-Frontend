@@ -60,7 +60,7 @@ export default function DetailsSection() {
             <FormItem className="max-w-[25%]">
              <FormLabel>Delivery Price (.RS)</FormLabel>
               <FormControl>
-                 <Input {...field} className="bg-white" placeholder="1.50"/>
+                 <Input {...field} className="bg-white" placeholder="150"/>
                </FormControl>
                <FormMessage/>
             </FormItem>)} 
@@ -73,7 +73,7 @@ export default function DetailsSection() {
             <FormItem className="max-w-[25%]">
              <FormLabel>Estimated Delivery Time (minutes)</FormLabel>
               <FormControl>
-                 <Input {...field} className="bg-white" placeholder="30"/>
+                 <Input {...field} className="bg-white" placeholder="20"/>
                </FormControl>
                <FormMessage/>
             </FormItem>)} 
